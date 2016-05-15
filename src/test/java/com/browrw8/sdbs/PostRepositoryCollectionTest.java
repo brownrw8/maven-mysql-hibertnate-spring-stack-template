@@ -11,12 +11,11 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.browrw8.sdbs.entities.Post;
-import com.browrw8.sdbs.repositories.PostRepository;
 import java.util.List;
+import com.browrw8.sdbs.repositories.PostRepository;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations="classpath:META-INF/application-context.xml")
-//@ContextConfiguration(locations="classpath:META-INF/test-context.xml")
 public class PostRepositoryCollectionTest {
 
 	@Autowired

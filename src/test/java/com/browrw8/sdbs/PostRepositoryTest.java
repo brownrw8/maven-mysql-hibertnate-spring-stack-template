@@ -15,7 +15,6 @@ import com.browrw8.sdbs.repositories.PostRepository;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations="classpath:META-INF/application-context.xml")
-//@ContextConfiguration(locations="classpath:META-INF/test-context.xml")
 public class PostRepositoryTest {
 
 	@Autowired

@@ -3,6 +3,7 @@
   <persistence-unit name="com.browrw8_SDBS" transaction-type="RESOURCE_LOCAL">
     <provider>org.hibernate.ejb.HibernatePersistence</provider>
     <class>com.browrw8.sdbs.entities.Post</class>
+    <class>com.browrw8.sdbs.entities.User</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/sdbs?zeroDateTimeBehavior=convertToNull"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
