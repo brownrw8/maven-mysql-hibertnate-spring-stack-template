@@ -25,7 +25,7 @@ public class User {
 	String firstname;
 	
 	@Column(name="LASTNAME")
-	Date lastname;
+	String lastname;
         
         @OneToMany
         @JoinColumn(name="USER_ID", referencedColumnName="USER_ID")
@@ -48,11 +48,11 @@ public class User {
             this.firstname = firstname;
         }
 
-        public Date getLastname() {
+        public String getLastname() {
             return lastname;
         }
 
-        public void setLastname(Date lastname) {
+        public void setLastname(String lastname) {
             this.lastname = lastname;
         }
         
